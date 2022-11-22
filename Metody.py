@@ -36,8 +36,8 @@ class Vstup:
         pass
 
     def vypln_udaje(self):
-        self.jmeno = input("\nZadejte jméno nového pojištěnce: \n") #dopnit, ze lze zadat pouze A-Z, ne cisla
-        self.prijmeni = input("Zadejte příjmení nového pojištěnce: \n") #dopnit, ze lze zadat pouze A-Z, ne cisla
+        self.jmeno = input("\nZadejte jméno nového pojištěnce: \n")
+        self.prijmeni = input("Zadejte příjmení nového pojištěnce: \n")
 
 
         self.vek = int(input("Zadejte věk nového pojištěnce: \n"))

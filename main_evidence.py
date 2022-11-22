@@ -31,7 +31,7 @@ while pokracovat == True:
         pojistenec = vstup.vypln_udaje()
         print(pojistenec, "\n")
         seznam_pojistencu.append(pojistenec)
-        input("\nData byla uložena. Pokračujte libovolnou klávesou...") #nahradit metodou str?
+        input("\nData byla uložena. Pokračujte libovolnou klávesou...")
         akce = Akce()
         akce.vyber_akci()
 
